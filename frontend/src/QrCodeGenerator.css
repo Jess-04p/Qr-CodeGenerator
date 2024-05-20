@@ -1,0 +1,98 @@
+body {
+    background-color: #2C3E50;
+    font-family: Arial, sans-serif;
+    color: #ECF0F1;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.form-container {
+    display: flex;
+    margin-top: 3%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    gap: 15%;
+    margin-bottom: 5%;
+}
+
+form {
+    background-color: #34495E;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.aa{
+    text-align: left;
+    font-size: large;
+
+}
+
+.bb{
+    width: 27rem;
+}
+
+select, input, textarea, button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: medium;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="color"] {
+    padding: 0;
+    height: 40px;
+}
+
+button {
+    background-color: #27AE60;
+    color: #031419;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2ECC71;
+}
+
+.qr-code {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.qr-code img {
+    max-width: 100%;
+    height: auto;
+    border: 10px solid #34495E;
+    border-radius: 10px;
+}
+
+.qr-code a {
+    text-decoration: none;
+}
+
+.qr-code button {
+    background-color: #27AE60;
+    color: #ECF0F1;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-left: 7px;
+}
+
+.qr-code button:hover {
+    background-color: #2ECC71;
+}
